@@ -6,7 +6,7 @@ int main()
 cout<<"\n Enter the amount to be withdrawed(in US$):";
 cin>>wm;
 cout<<"\nEnter the amount balance in your account(in US $):";
-cin>>amount;
+cin>>amount;  //taking  input amount
 if(wm/5==0&&wm<amount)
 {balance=amount-wm-0.50;}
 else
